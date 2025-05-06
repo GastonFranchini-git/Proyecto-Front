@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://t3.ftcdn.net/jpg/09/56/94/66/360_F_956946677_weVJRUpNcRQcydJCh4h10zzNhq3dvUtb.jpg) no-repeat center/cover;
+    overflow: hidden scroll;
+}
+.logo{
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    p{
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        font-family: "Bebas Neue", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        text-align: center;
+        padding: 0.1rem;
+        text-shadow: -2px 2px black, 2px 2px black, 2px -2px black, -2px -2px black;
+    }
+    img{
+        width: 6vw;
+        height: 12vh;
+        border-radius: 50%;
+        border: 5px solid rgb(0, 0, 0);
+        overflow: hidden;
+}}
+header{
+    background: url(https://img.freepik.com/free-photo/black-brick-wall-texture_1194-7284.jpg) no-repeat center center/cover;
+    overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    box-sizing: border-box;
+    border-bottom: #000000 solid 5px;
+    width: 100vw;
+    height: 18vh;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    nav{
+        display: flex;
+        a{text-decoration: none;}
+        }
+        li{
+            display: flex;
+            width: 9vw;
+            height: 3vh;
+            align-items:center;
+            text-decoration: none;
+            overflow: hidden;
+            justify-content:space-evenly;
+            color: rgb(255, 255, 255);
+            text-shadow: -2px 2px black, 2px 2px black, 2px -2px black, -2px -2px black;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            font-family: "Bebas Neue", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            font-size: 2rem;
+            transition: 0.3s ease-in-out;
+            border:#000000 solid 5px;
+            background-color: rgb(143, 142, 142);
+            border-radius: 2rem;
+    }
+    li:hover{
+        color: rgb(247, 0, 0)
+        scale(1.1);
+        background-color: rgb(0, 0, 0);
+        border-radius: 2rem;
+        box-shadow: 0 0 45px rgb(0, 0, 0);
+        transition: 0.3s ease-in-out;
+        transform: scale(1.3);
+    }
+}
+.cuenta{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        nav{
+            display: flex;
+            a{text-decoration: none;}
+            }
+            li{
+                display: flex;
+                width: 5vw;
+                height: 3vh;
+                align-items:center;
+                text-decoration: none;
+                overflow: hidden;
+                justify-content:space-evenly;
+                color: rgb(255, 255, 255);
+                text-shadow: -2px 2px black, 2px 2px black, 2px -2px black, -2px -2px black;
+                padding: 1rem 2rem;
+                margin: 1rem;
+                font-family: "Bebas Neue", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 2rem;
+                transition: 0.3s ease-in-out;
+                border:#000000 solid 5px;
+                background-color: rgb(143, 142, 142);
+                border-radius: 2rem;
+        }
+        li:hover{
+            color: rgb(247, 0, 0)
+            scale(1.1);
+            background-color: rgb(0, 0, 0);
+            border-radius: 2rem;
+            box-shadow: 0 0 45px rgb(0, 0, 0);
+            transition: 0.3s ease-in-out;
+            transform: scale(1.3);
+        }
+}
+.texto-fondo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    h1{
+        display: flex;
+        text-shadow: -2px 2px black,-2px -2px black, 2px 2px black, 2px -2px black;
+        box-shadow: #000000;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        margin-top: 10rem;
+        font-size: 7rem;
+        font-family: "Bebas Neue", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        width: 100%;
+    }
+    p{
+        display: flex;
+        text-shadow: -2px 2px black,-2px -2px black, 2px 2px black, 2px -2px black;
+        transform: translateY(-20%);
+        box-shadow: #000000;
+        margin-top: 4rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-family: "bebas neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;          
+        width: 50%;
+    }
+    h2{
+        display: flex;
+        text-shadow: -2px 2px black,-2px -2px black, 2px 2px black, 2px -2px black;
+        box-shadow: #000000;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;;
+        color: rgb(255, 255, 255);
+        font-size: 4rem;
+        font-family: "Bebas Neue", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 100%;
+    height: 18vh;
+    a{text-decoration:none;
+    color: rgb(255, 255, 255);}
+    a:hover{
+        transition: 0.3s;
+        transform: scale(1.3);
+    }
+    .objetivos{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        font-size: 2rem;
+        font-family:"bebas neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 1rem;
+        border-radius: 2rem;
+        border: 5px solid rgb(0, 0, 0);
+        height: 4rem;
+        width: 15vw;
+    }
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10.5vh;
+    background-color: rgb(0, 0, 0);
+    a{text-decoration: none;}
+    a:hover{
+        transition: 0.3s;
+        transform: scale(1.4);
+    }
+}
+.fa-brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+    height: 1px;
+    color: white;
+}
+.fa-whatsapp{
+    position: fixed;
+    scale: 1.2;
+    top: 11rem;
+    right: 3rem;
+}
+@media screen {
+    @media (max-width: 768px) {
+        .menu{
+            display: none;
+        }
+        .logo{
+            margin-top: 1rem;
+        }
+        .texto-fondo{
+            h1{
+                font-size: 35px;
+                margin-top: 13rem;
+                width: 90vw;
+            }
+            p{
+                display: flex;
+                font-size: 20px;
+                margin-top: 1rem;
+                width: 80vw;
+            }
+        }
+        .botones{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            button{
+                width: 90vw;
+                height: 10vh;
+                font-size: 20px;
+                margin: 10px;
+            }
+        }
+        .fa-whatsapp{
+            width: 70px;
+            height: 70px;
+            position: fixed;
+            top: 60px;
+            right: 10px;
+            bottom: 0;
+        }
+    }
+    
+}
